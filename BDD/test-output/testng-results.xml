@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-25T04:02:33Z" name="Default suite" finished-at="2021-08-25T04:02:41Z" duration-ms="8152">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Run1@6304101a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-25T04:02:33Z" name="Default test" finished-at="2021-08-25T04:02:41Z" duration-ms="8152">
+      <class name="runner.Run1">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.Run1@6304101a]" started-at="2021-08-25T09:32:33Z" name="setUpClass" finished-at="2021-08-25T09:32:33Z" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Run1@6304101a]" started-at="2021-08-25T09:32:33Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-08-25T09:32:41Z" duration-ms="7455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login page with valid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[to test the hcl application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Run1@6304101a]" started-at="2021-08-25T09:32:41Z" name="tearDownClass" finished-at="2021-08-25T09:32:41Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Run1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
